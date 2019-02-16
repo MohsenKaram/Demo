@@ -1,0 +1,25 @@
+@keyframes leftRight {
+  0% {
+    text-align: left;
+  }
+  50% {
+    text-align: center;
+  }
+  100% {
+    text-align: right;
+  }
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  background-color: black;
+  animation-name: leftRight;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  color: #729bd8;
+}
+
+/*# sourceMappingURL=style.css.map */
